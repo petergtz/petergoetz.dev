@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Peter Götz</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
+
+  <style>
+    /* Set a fixed height for the hero banner */
+    .hero-banner {
+      height: 357px;
+    }
+
+    /* Set the background image for the hero banner */
+    .hero-banner-image {
+      background-image: url('hero-banner-wide.png');
+      background-size: cover;
+      background-position: center top;
+    }
+
+    .grid-content {
+      margin-top: -120px;
+      background-color: white;
+      padding-top: 16px;
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+
+    .zoom-effect:hover img {
+      transform: scale(1.03);
+    }
+
+    .zoom-effect img {
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .zoom-effect {
+      height: 100%;
+      overflow: hidden;
+    }
+
+    .columns.is-variable>.column {
+      padding: 4px;
+    }
+
+    @media screen and (min-width: 701px) {
+      .is-one-quarter-desktop {
+        width: 25% !important;
+        flex: none;
+      }
+    }
+
+    @media screen and (min-width: 501px) and (max-width: 700px) {
+      .is-one-third-tablet {
+        width: 33.333333% !important;
+        flex: none;
+      }
+    }
+
+    @media screen and (max-width: 500px) {
+      .is-half-mobile {
+        width: 50% !important;
+        flex: none;
+      }
+    }
+
+    img[src="petergoetz-here.svg"] {
+      width: 300px;
+      /* adjust this value to make the logo bigger or smaller */
+      height: auto;
+      /* this ensures the logo's aspect ratio is maintained */
+    }
+  </style>
+</head>
+
+<body>
+  <section class="hero hero-banner hero-banner-image is-primary">
+    <div class="hero-head">
+      <nav class="navbar">
+        <div class="container is-max-desktop">
+          <div class="navbar-brand">
+            <a>
+              <img src="petergoetz-here.svg" alt="Logo">
+            </a>
+            <span class="navbar-burger" data-target="navbarMenuHeroA">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+          <div id="navbarMenuHeroA" class="navbar-menu">
+            <div class="navbar-end">
+              <a class="navbar-item">
+                Home
+              </a>
+              <a class="navbar-item">
+                About
+              </a>
+              <a class="navbar-item">
+                Projects
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <p class="title">
+        I build things.
+      </p>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container is-max-desktop grid-content">
+      <div class="columns is-variable is-1 is-multiline is-mobile">
+        <div class="column is-one-quarter-desktop is-one-third-tablet is-half-mobile">
+          <figure class="image is-square zoom-effect">
+            <img src="profile.png">
+          </figure>
+        </div>
+        <div class="column is-one-quarter-desktop is-one-third-tablet is-half-mobile">
+          <div class="columns is-multiline is-mobile is-gapless">
+            <div class="column is-half">
+              <a href="https://twitter.com/petergtz">
+                <figure class="image is-square zoom-effect">
+                  <img src="twitter-logo.png">
+                </figure>
+              </a>
+            </div>
+            <div class="column is-half">
+              <a href="https://github.com/petergtz">
+                <figure class="image is-square zoom-effect">
+                  <img src="github-logo.png">
+                </figure>
+              </a>
+            </div>
+            <div class="column is-half">
+              <a href="https://medium.com/@peter.gtz">
+                <figure class="image is-square zoom-effect">
+                  <img src="medium-logo.png">
+                </figure>
+              </a>
+            </div>
+            <div class="column is-half">
+              <a href="https://www.linkedin.com/in/petergtz/">
+                <figure class="image is-square zoom-effect">
+                  <img src="linkedin-logo.png">
+                </figure>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="columns is-variable is-1 is-multiline is-mobile">
+        <div class="column is-one-quarter-desktop is-one-third-tablet is-half-mobile">
+          <a href="https://www.amazon.de/dp/B0BXZ91SH2/">
+            <figure class="image is-square zoom-effect">
+              <img src="mygpt-logo.png">
+            </figure>
+          </a>
+        </div>
+        <div class="column is-one-quarter-desktop is-one-third-tablet is-half-mobile">
+          <a href="https://github.com/petergtz/pegomock">
+            <figure class="image is-square zoom-effect">
+              <img src="pegomock-logo.png">
+            </figure>
+          </a>
+        </div>
+        <div class="column is-one-quarter-desktop is-one-third-tablet is-half-mobile">
+          <a href="https://github.com/py-why-dowhy">
+            <figure class="image is-square zoom-effect">
+              <img src="dowhy-logo.png">
+            </figure>
+          </a>
+        </div>
+        <div class="column is-one-quarter-desktop is-one-third-tablet is-half-mobile">
+          <a href="https://www.amazon.com/dp/B07BKRT478">
+            <figure class="image is-square zoom-effect">
+              <img src="my-encyclopedia-logo.png">
+            </figure>
+          </a>
+        </div>
+        <div class="column is-one-quarter-desktop is-one-third-tablet is-half-mobile">
+          <a href="https://www.amazon.de/dp/B07TL9ZGQK">
+            <figure class="image is-square zoom-effect">
+              <img src="tweety-logo.png">
+            </figure>
+        </div>
+        <div class="column is-one-quarter-desktop is-one-third-tablet is-half-mobile">
+          <a href="https://github.com/petergtz/go-alexa">
+            <figure class="image is-square zoom-effect">
+              <img src="go-alexa-logo.png">
+            </figure>
+          </a>
+        </div>
+        <div class="column is-one-quarter-desktop is-one-third-tablet is-half-mobile">
+          <a href="https://www.amazon.com/dp/B07TSPVXHM">
+            <figure class="image is-square zoom-effect">
+              <img src="my-journal-logo.png">
+            </figure>
+        </div>
+        <div class="column is-one-quarter-desktop is-one-third-tablet is-half-mobile">
+          <a href="https://github.com/petergtz/phomo">
+            <figure class="image is-square zoom-effect">
+              <img src="phomo-logo.png">
+            </figure>
+          </a>
+        </div>
+        <div class="column is-one-quarter-desktop is-one-third-tablet is-half-mobile">
+          <figure class="image is-square zoom-effect">
+            <img src="grey.png">
+          </figure>
+        </div>
+        <div class="column is-one-quarter-desktop is-one-third-tablet is-half-mobile">
+          <a href="https://github.com/petergtz/vcf-compare">
+            <figure class="image is-square zoom-effect">
+              <img src="vcf-compare-logo.png">
+            </figure>
+          </a>
+        </div>
+        <div class="column is-one-quarter-desktop is-one-third-tablet is-half-mobile">
+          <figure class="image is-square zoom-effect">
+            <img src="dark-grey.png">
+          </figure>
+        </div>
+        <div class="column is-one-quarter-desktop is-one-third-tablet is-half-mobile">
+          <a href="https://github.com/petergtz/g2s3">
+            <figure class="image is-square zoom-effect">
+              <img src="g2s3-logo.png">
+            </figure>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <section class="section">
+    <div class="container">
+      <h1 class="title">
+        Hello World
+      </h1>
+      <p class="subtitle">
+        My first website with <strong>Bulma</strong>!
+      </p>
+        <div class="columns">
+          <div class="column">1</div>
+          <div class="column">2</div>
+          <div class="column">3</div>
+          <div class="column">4</div>
+          <div class="column">5</div>
+        </div>
+      </button>
+    </div>
+  </section> -->
+</body>
+
+</html>
