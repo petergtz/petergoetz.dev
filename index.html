@@ -1,5 +1,5 @@
-<!DOCTYPE html>
 <html>
+<!DOCTYPE html>
 
 <head>
   <meta charset="utf-8">
@@ -22,7 +22,7 @@
     }
 
     .grid-content {
-      margin-top: -120px;
+      margin-top: -140px;
       background-color: white;
       padding-top: 16px;
       padding-left: 8px;
@@ -68,10 +68,18 @@
     }
 
     img[src="petergoetz-here.svg"] {
-      width: 300px;
-      /* adjust this value to make the logo bigger or smaller */
+      width: 220px;
       height: auto;
-      /* this ensures the logo's aspect ratio is maintained */
+    }
+
+    .container {
+      max-width: 800px !important;
+    }
+
+    h1 {
+      font-family: Lato, sans-serif;
+      font-size: 2rem;
+      font-weight: 100;
     }
   </style>
 </head>
@@ -109,18 +117,18 @@
     </div>
     <div class="hero-body">
       <div class="container is-max-desktop">
-        <p class="title">
-        I build things.
-      </p>
+        <h1>
+          Software Engineer.<br>I breath code. I build things.
+        </h1>
       </div>
     </div>
-  </section>
+  </section> 
   <section class="section">
     <div class="container is-max-desktop grid-content">
       <div class="columns is-variable is-1 is-multiline is-mobile">
         <div class="column is-one-quarter-desktop is-one-third-tablet is-half-mobile">
           <figure class="image is-square zoom-effect">
-            <img src="profile.png">
+            <img src="profile.jpg">
           </figure>
         </div>
         <div class="column is-one-quarter-desktop is-one-third-tablet is-half-mobile">
@@ -155,8 +163,6 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="columns is-variable is-1 is-multiline is-mobile">
         <div class="column is-one-quarter-desktop is-one-third-tablet is-half-mobile">
           <a href="https://www.amazon.de/dp/B0BXZ91SH2/">
             <figure class="image is-square zoom-effect">
@@ -172,7 +178,7 @@
           </a>
         </div>
         <div class="column is-one-quarter-desktop is-one-third-tablet is-half-mobile">
-          <a href="https://github.com/py-why-dowhy">
+          <a href="https://pywhy.org/dowhy">
             <figure class="image is-square zoom-effect">
               <img src="dowhy-logo.png">
             </figure>
@@ -212,11 +218,6 @@
           </a>
         </div>
         <div class="column is-one-quarter-desktop is-one-third-tablet is-half-mobile">
-          <figure class="image is-square zoom-effect">
-            <img src="grey.png">
-          </figure>
-        </div>
-        <div class="column is-one-quarter-desktop is-one-third-tablet is-half-mobile">
           <a href="https://github.com/petergtz/vcf-compare">
             <figure class="image is-square zoom-effect">
               <img src="vcf-compare-logo.png">
@@ -224,39 +225,15 @@
           </a>
         </div>
         <div class="column is-one-quarter-desktop is-one-third-tablet is-half-mobile">
-          <figure class="image is-square zoom-effect">
-            <img src="dark-grey.png">
-          </figure>
-        </div>
-        <div class="column is-one-quarter-desktop is-one-third-tablet is-half-mobile">
           <a href="https://github.com/petergtz/g2s3">
             <figure class="image is-square zoom-effect">
-              <img src="g2s3-logo.png">
+              <img src="g2s3-logo.svg">
             </figure>
           </a>
         </div>
       </div>
-    </div>
+    </div> 
   </section>
-
-  <!-- <section class="section">
-    <div class="container">
-      <h1 class="title">
-        Hello World
-      </h1>
-      <p class="subtitle">
-        My first website with <strong>Bulma</strong>!
-      </p>
-        <div class="columns">
-          <div class="column">1</div>
-          <div class="column">2</div>
-          <div class="column">3</div>
-          <div class="column">4</div>
-          <div class="column">5</div>
-        </div>
-      </button>
-    </div>
-  </section> -->
 </body>
 
 </html>
