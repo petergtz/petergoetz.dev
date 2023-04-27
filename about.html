@@ -1,0 +1,194 @@
+<html>
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Peter Götz</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
+
+    <style>
+        /* Set a fixed height for the hero banner */
+        .hero-banner {
+            height: 357px;
+        }
+
+        /* Set the background image for the hero banner */
+        .hero-banner-image {
+            background-image: url('hero-banner-about.png');
+            background-size: cover;
+            background-position: center top;
+        }
+
+        .grid-content {
+            margin-top: -140px;
+            background-color: white;
+            padding-top: 16px;
+            padding-left: 8px;
+            padding-right: 8px;
+        }
+
+        .zoom-effect:hover img {
+            transform: scale(1.03);
+        }
+
+        .zoom-effect img {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .zoom-effect {
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .columns.is-variable>.column {
+            padding: 4px;
+        }
+
+        @media screen and (min-width: 701px) {
+            .is-one-quarter-desktop {
+                width: 25% !important;
+                flex: none;
+            }
+        }
+
+        @media screen and (min-width: 501px) and (max-width: 700px) {
+            .is-one-third-tablet {
+                width: 33.333333% !important;
+                flex: none;
+            }
+        }
+
+        @media screen and (max-width: 500px) {
+            .is-half-mobile {
+                width: 50% !important;
+                flex: none;
+            }
+        }
+
+        img[src="petergoetz-here.svg"] {
+            width: 220px;
+            height: auto;
+        }
+
+        img[src="profile.jpg"] {
+            /* width: 190px; */
+            height: auto;
+            /* margin-bottom: 10px; */
+            /* margin-top: -30px; */
+            /* float: left; */
+        }
+
+        @media screen and (max-width: 500px) {
+            img[src="profile.jpg"] {
+                float: top;
+                width: 50%;
+            }
+        }
+
+        @media screen and (min-width: 501px) {
+            img[src="profile.jpg"] {
+                float: left;
+                width: 190px;
+                margin-top: -30px;
+                margin-right: 20px;
+            }
+        }
+
+        .container {
+            max-width: 800px !important;
+        }
+
+        h1 {
+            font-family: Lato, sans-serif;
+            font-size: 2rem;
+            font-weight: 100;
+        }
+
+        p {
+            font-family: Lato, sans-serif;
+            font-weight: 100;
+
+        }
+    </style>
+    <script src="burger.js"></script>
+</head>
+
+<body>
+    <section class="hero hero-banner hero-banner-image is-dark">
+        <div class="hero-head">
+            <nav class="navbar is-success">
+                <div class="container is-max-desktop">
+                    <div class="navbar-brand">
+                        <a>
+                            <img src="petergoetz-here.svg" alt="Logo">
+                        </a>
+                        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                            data-target="navMenu">
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                        </a>
+                    </div>
+                    <div id="navMenu" class="navbar-menu">
+                        <div class="navbar-end">
+                            <a class="navbar-item" href="index.html">
+                                Home
+                            </a>
+                            <a class="navbar-item" href="about.html">
+                                About
+                            </a>
+                            <a class="navbar-item" href="https://medium.com/@peter.gtz">
+                                Blog
+                            </a>
+                            <a class="navbar-item" href="https://github.com/petergtz">
+                                Code
+                            </a>
+                            <a class="navbar-item" href="https://www.linkedin.com/in/petergtz/">
+                                Contact
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="hero-body">
+            <div class="container is-max-desktop">
+                <h1>
+                    Software Engineer.<br>I breathe code. I build things.
+                </h1>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container is-max-desktop grid-content">
+            <div class="content">
+                <img src="profile.jpg">
+                <h1>About</h1>
+                <p>Hi, my name is Peter Götz. I'm a Software Engineer at Amazon, where I helped build AWS services like
+                    <a href="https://aws.amazon.com/lookout-for-metrics/">Lookout for Metrics</a>, or where I founded <a
+                        href="pywhy.org">PyWhy</a>. I was also one of the tech leads for Amazon's expansion in
+                    international technologies, which allows you to shop for products originally only available in other
+                    countries. Previously, I worked at IBM, where I helped to build the <a
+                        href="https://www.ibm.com/cloud">IBM Cloud</a>, when it was still in its very early days.
+                </p>
+
+                <p>Ever since I started programming at the age of 9, I was fascinated by it. At the time, I thought
+                    arrays are probably the hardest thing in the world to understand. But eventually, I got over the
+                    hump and started with side scroller games in QBasic, went on to Turbo Pascal, then later to C/C++ on
+                    Windows and graphics programming with a special passion for raytracers. After graduating at
+                    Stuttgart University in Physics, I made my passion for coding my job, and to this day, it's just as
+                    fun as it was on the first day.</p>
+
+                <p>Today, I live in the lovely town of <a href="https://goo.gl/maps/38nDqwkqDC33dw7TA">Echterdingen,
+                        Germany</a>. If you want to get in touch, feel free to
+                    <a href="https://www.linkedin.com/in/petergtz/">ping me on LinkedIn</a>.
+                </p>
+            </div>
+
+        </div>
+    </section>
+</body>
+
+</html>
