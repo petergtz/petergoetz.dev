@@ -1,0 +1,12 @@
+.DS_Store
+
+# Large source material / scratch (not part of the published site)
+image-sources/
+random-stuff/
+
+# Unused/unreferenced assets and experiment pages (kept locally)
+hero-banner.jpg
+petergoetz-here.png
+overlay.html
+tiles.html
+about.md
